@@ -1,0 +1,51 @@
+/* General body styling */
+body {
+    background-color: #0f1117; /* dark background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f2f5; /* soft white text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+    color: #17c0eb;
+    font-weight: bold;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+    background-color: #1e212a;
+    border: 1px solid #2e323e;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button,
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Button hover effect */
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Graph section */
+#investment-chart {
+    background-color: #1e212a;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+/* Responsive row spacing */
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
